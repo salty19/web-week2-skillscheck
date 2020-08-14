@@ -178,7 +178,7 @@ const total = myNumbers.reduce(function(acc, curr){
 const myNumbersIndex = [];
 
 myNumbers.forEach(function(i){
-	return myNumbersIndex.push(myNumbers)
+	return /*HOW DO I ADD AND RETURN*/
 })
 //////////////////PROBLEM 18////////////////////
 
