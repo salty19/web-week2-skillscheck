@@ -176,7 +176,7 @@ const filtered = myNumbers.filter(function (e){
 const myNumbersIndex = [];
 
 myNumbers.forEach(function(i){
-	return myNumbersIndex
+	return myNumbersIndex.push(myNumbers)
 })
 //////////////////PROBLEM 18////////////////////
 
