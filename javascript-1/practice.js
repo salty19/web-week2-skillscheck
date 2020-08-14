@@ -125,7 +125,7 @@ function bigOrSmall(arr) {
 			answers.push('big')
 		}
 	}
-	return(answers.length)
+	return(answers.length[i])
 }
 
 //////////////////PROBLEM 13////////////////////
@@ -133,7 +133,13 @@ function bigOrSmall(arr) {
 // Create a function called 'arrayReverser' that takes in one parameter, 'arr'. Inside of arrayReverser, create an empty array called 'reversed'. Using a for loop, loop over the passed in array IN REVERSE (this means your counter should decrement), and then add each item to the 'reversed' array variable you created. Finally, return the 'reversed' array variable. 
 
 //Code Here
-
+function arrayReverser(arr) {
+	const reversed = [];
+	for (let i = arr.length -1; i >= 0; i--) {
+		reversed.push()
+	}
+	return reversed[i];
+}
 //////////////////PROBLEM 14 - 18 Setup////////////////////
 
 // Below is an array, myNumbers. You will be using .map, .filter, .reduce and .forEach to manipulate the array in the following problems.
