@@ -212,3 +212,6 @@ const enemies = people.filter(element => {
 // Using the people array above, get a total of the awesomeLevel from all the people, and store that value in a variable named 'totallyAwesome'. Use .reduce().
 
 // Code Here
+const totallyAwesome = people.reduce(function(acc, curr){
+	return acc + curr.awesomeLevel
+})
