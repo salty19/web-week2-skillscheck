@@ -159,7 +159,9 @@ const doubled = myNumbers.map(function (e) {
 // Now, use .filter to create a new array containing any numbers that are greater than 100. Call the new array 'filtered'. 
 
 // Code Here
-
+const filtered = myNumbers.filter(function (e){
+	return e > 100;
+})
 //////////////////PROBLEM 16////////////////////
 
 // Next, use reduce to get the total of the numbers in the array summed together. Store the total in a new variable named 'total'. 
