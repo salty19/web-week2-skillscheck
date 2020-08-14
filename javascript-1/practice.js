@@ -79,7 +79,7 @@ const colorCopy = faveColors.slice();
 //Code Here
 
 //////////////////PROBLEM 10////////////////////
-
+colorCopy.push('orange')
 // Create a new array called 'middleNums' from the numbers array that will capture only the middle numbers (2, 3, 4).
 const numbers = [1, 2, 3, 4, 5]
 
