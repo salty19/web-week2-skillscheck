@@ -76,3 +76,21 @@
     align-content: center;
     color: #8bffc3;
 }
+
+.creamsicle {
+    display: flex;
+    width: 100vw;
+    height: 250px;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+}
+
+.orange-box {
+    display: flex;
+    background-color: rgb(255, 178, 34);
+    height: 225px;
+    width: 450px;
+    color: rgb(255, 178, 34)
+}
+
