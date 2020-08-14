@@ -104,6 +104,29 @@ me.greeter()
 // Create a function called 'bigOrSmall' that takes in one parameter, 'arr', which will be an array of numbers. Inside of the bigOrSmall function, create a new array called 'answers'. Then, loop over the passed in arr parameter, and check to see if the number in the array is GREATER than 100. If it is, push 'big' as a string to the answers array. If the number is LESS than or EQUAL to 100, push 'small' as a string to the answers array. Return the answers array inside of the function.
 
 // Code here
+// function bigOrSmall(arr) {
+// 	const answers = []
+// 	for(let i = 0; i < arr.length; i++) {
+// 		if (i > 100) {
+// 			answers.push('big')
+// 		} else (i <= 100) {
+// 			answers.push(answers)
+// 		}
+// 	}
+// 	console.log(answers)
+// }
+
+function bigOrSmall(arr) {
+	const answers = [];
+	for (let i = 0; i < arr.length - 1; i++) {
+		if (i <= 100) {
+			answers.push('small')
+		} else {
+			answers.push('big')
+		}
+	}
+	return(answers.length)
+}
 
 //////////////////PROBLEM 13////////////////////
 
