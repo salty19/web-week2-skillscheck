@@ -125,7 +125,7 @@ function bigOrSmall(arr) {
 			answers.push('big')
 		}
 	}
-	return(answers.length[i])
+	return(answers[i])
 }
 
 //////////////////PROBLEM 13////////////////////
@@ -151,7 +151,9 @@ const myNumbers = [3, 55, 788, 2, 1]
 // First, use .map to create a new array that doubles each number. Call the new array 'doubled'.
 
 // Code Here
-
+const doubled = myNumbers.map(function (e) {
+	return e * 2;
+})
 //////////////////PROBLEM 15////////////////////
 
 // Now, use .filter to create a new array containing any numbers that are greater than 100. Call the new array 'filtered'. 
