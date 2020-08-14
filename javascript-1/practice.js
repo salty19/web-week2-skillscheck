@@ -186,7 +186,9 @@ myNumbers.forEach(function(i){
 const notGeorge = ['Louis', 'Ted', 'Bill', 'Sharon', 'Mark', 'Angela']
 
 // Code Here
-
+const forTheLoveOfGeorge = notGeorge.map(function (e) {
+	return e = "George"
+})
 //////////////////PROBLEM 19////////////////////
 
 // Using the people array, filter out everyone that isn't a friend into a new array called 'enemies'. Use .filter(). 
