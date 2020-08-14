@@ -178,7 +178,7 @@ const total = myNumbers.reduce(function(acc, curr){
 const myNumbersIndex = [];
 
 myNumbers.forEach(function(i){
-	return /*HOW DO I ADD AND RETURN*/
+	// return /*HOW DO I ADD AND RETURN*/ myNumbersIndex = [...myNumbers]
 })
 //////////////////PROBLEM 18////////////////////
 
@@ -202,7 +202,11 @@ const people = [
 ]
 
 // Code Here
-
+const enemies = people.filter(element => {
+	if(people.friend === false){
+		return people
+	}
+})
 //////////////////PROBLEM 20////////////////////
 
 // Using the people array above, get a total of the awesomeLevel from all the people, and store that value in a variable named 'totallyAwesome'. Use .reduce().
