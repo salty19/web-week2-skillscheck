@@ -90,7 +90,15 @@ const middleNums = numbers.slice(1, 4)
 // Create an object called 'me' that has the following keys: firstName, state, age, and greeter. The value of the firstName key should be your name as a string. The value of the property state should be your current state or providence of residence as a string. The value of age should be your age as a number. greeter should be a method that returns the string 'Hello! My name is NAMEVALUE and I live in STATEVALUE' with the corresponding values. 
 
 //Code Here
-
+let me = {
+	firstName: 'Karaaa',
+	state: 'Arizona',
+	age: 40,
+	greeter: function(){
+		return ('Hello! My name is ${firstName} and I live in ${state}')
+		}
+}
+me.greeter()
 //////////////////PROBLEM 12////////////////////
 
 // Create a function called 'bigOrSmall' that takes in one parameter, 'arr', which will be an array of numbers. Inside of the bigOrSmall function, create a new array called 'answers'. Then, loop over the passed in arr parameter, and check to see if the number in the array is GREATER than 100. If it is, push 'big' as a string to the answers array. If the number is LESS than or EQUAL to 100, push 'small' as a string to the answers array. Return the answers array inside of the function.
