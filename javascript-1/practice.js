@@ -167,7 +167,9 @@ const filtered = myNumbers.filter(function (e){
 // Next, use reduce to get the total of the numbers in the array summed together. Store the total in a new variable named 'total'. 
 
 // Code Here
-
+const total = myNumbers.reduce(function(acc, curr){
+	return (acc + curr)
+})
 //////////////////PROBLEM 17////////////////////
 
 // Finally, use .forEach to find the index of each item in the array. To begin, create an empty array called 'myNumbersIndex'. Then, use forEach to push each item's index from the myNumbers array into the newly created myNumbersIndex array. 
