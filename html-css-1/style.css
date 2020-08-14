@@ -37,3 +37,21 @@
     padding: 20px;
     font-size: 14px;
 }
+
+.black-box {
+    display: flex;
+    background-color: black;
+    width: 100vw;
+    height: 380px;
+    align-items: center;
+    justify-content: center;
+}
+
+.more-know {
+    display: flex;
+    color: yellow;
+    font-family: Verdana;
+    font-size: 65px;
+    font-family: verdana;
+    font-weight: bold;
+}
