@@ -7,6 +7,7 @@
     width: 100vw;
     background-color: gray;
     display: flex;
+    position: relative
 }
 
 .company {
@@ -18,12 +19,24 @@
     margin-left: 55px;
 }
 
+.safe-area {
+    width: 565px;
+}
+
 .navbar {
     display: flex;
-	justify-content: flex-end;
-	align-items: center;
+    
+    /* align-items: center;
+    margin-left: 440px; */
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-right: 40px;
 }
 
 .nav-link {
-    
+    color: white;
+    font-family: verdana;
+    padding: 20px;
+    font-size: 14px;
 }
