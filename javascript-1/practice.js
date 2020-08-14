@@ -70,6 +70,7 @@ function oddChecker(num){
 const faveColors = ['red', 'green', 'black']
 
 //Code Here
+const colorCopy = faveColors.slice();
 
 //////////////////PROBLEM 9////////////////////
 
