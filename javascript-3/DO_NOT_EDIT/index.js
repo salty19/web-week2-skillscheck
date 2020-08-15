@@ -1,4 +1,4 @@
-const groceryList = document.getElementById('grocery-list');
+dafconst groceryList = document.getElementById('grocery-list');
 const groceryInput = document.getElementById('item');
 const addItemBtn = document.getElementById('btn');
 const title = document.getElementById('grocery-list-title');
