@@ -5,11 +5,22 @@
 // Create a new array called 'faveColors' and assign it a value of your three favorite colors as strings.
 
 // CODE HERE
-
+const faveColors = ['black', 'red', 'orange']
 //////////////////Step 2////////////////////
 // Create an object called 'me' that has these keys: firstName, superHeroName, homeTown, superPowers, superPowerXP, and profileImage. 
 
 // The firstName key should have a value of your name as a string. 
+const me = {
+    firstName: 'Kara',
+    superHeroName: 'Salty Slow Coder',
+    homeTown: 'Mesa',
+    superPowers: ['Mega Blast', 'Thumder From Down Under', 'Calamitous Crop Duster'],
+    superPowerXP: function(Math.floor(Math.random() * 100) +1),
+    profileIamge: document.createElement('img');
+        img.src = `https://randomuser.me/api/portraits/med/lego/${Math.floor(Math.random() * 10) + 1 }.jpg`;
+        document.body.appendChild(img);
+      
+}
 
 // The superHeroName key should be your name if you were a super hero. Feel free to jazz it up and get silly with it, e.g. "Thunderous Gas Man". 
 
