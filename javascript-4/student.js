@@ -16,7 +16,7 @@ const me = {
     homeTown: 'Mesa',
     superPowers: ['Mega Blast', 'Thumder From Down Under', 'Calamitous Crop Duster'],
     superPowerXP: function(Math.floor(Math.random() * 100) +1),
-    profileIamge: document.createElement('img');
+    profileImage: document.createElement('img');
         img.src = `https://randomuser.me/api/portraits/med/lego/${Math.floor(Math.random() * 10) + 1 }.jpg`;
         document.body.appendChild(img);
       
