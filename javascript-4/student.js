@@ -45,7 +45,7 @@ let homeTown = me.homeTown;
 
 // Next, create a for loop to loop over the remaining three colors. If any of the colors is 'blue', change it's value to '#4D4DFF' (which is just a more appealing shade of blue). Outside of the for loop but still inside of setColor, invoke the function called 'background' which will take in three arguments. These arguments should be the three items remaining in your colors array. 
 
-// CODE HERE
+// CODE HEREgit 
 function setColor(arr){
     arr.length.splice(3, 1)
 
