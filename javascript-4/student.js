@@ -32,7 +32,6 @@ const me = {
     profileImage: document.createElement('img');
         img.src = `https://randomuser.me/api/portraits/med/lego/${Math.floor(Math.random() * 10) + 1 }.jpg`;
         document.body.appendChild(img);
-      
 }
 //////////////////Step 3////////////////////
 // In this step, you will create three variables that will hold some data from your me object. The first variable you create should be 'regularName', and it should receive its value from the value of your firstName key on the me object above. The next variable is 'superName' which should have its value assigned as the value of the superHeroName property on the me object. The last variable you should create is 'homeTown' which will be the value of homeTown on the me object
@@ -40,13 +39,24 @@ const me = {
 // CODE HERE
 let regularName = me.firstName;
 let superName = me.superHeroName;
-let homeTown = me.homeTown
+let homeTown = me.homeTown;
 //////////////////Step 4////////////////////
 //Create a function called 'setColor' that takes in one parameter called 'arr' that is an array of colors. Make sure that we only ever have three colors by using splice to trim the array to just 3 colors. 
 
 // Next, create a for loop to loop over the remaining three colors. If any of the colors is 'blue', change it's value to '#4D4DFF' (which is just a more appealing shade of blue). Outside of the for loop but still inside of setColor, invoke the function called 'background' which will take in three arguments. These arguments should be the three items remaining in your colors array. 
 
 // CODE HERE
+function setColor(arr){
+    arr.length.splice(3, 1)
+
+    for(let i = 0; i < arr.length; i++){
+        if(arr.length[i] === 'blue') {
+            arr.length.splice([i], 1, '#4D4DFF')
+        }
+    }
+    background(arr.length[i])
+}
+
 
 //////////////////Step 5////////////////////
 //Create a function called 'setPowers' that takes in 'arr' as a parameter. In your setPowers function, loop over the arr parameter and run a function we created called createLi(), which will take each item of the array as an argument. Remember, you did not create the createLi function. The createLi function is a function we created that determines how the content is displayed.
