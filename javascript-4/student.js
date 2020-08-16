@@ -10,17 +10,6 @@ const faveColors = ['black', 'red', 'orange']
 // Create an object called 'me' that has these keys: firstName, superHeroName, homeTown, superPowers, superPowerXP, and profileImage. 
 
 // The firstName key should have a value of your name as a string. 
-const me = {
-    firstName: 'Kara',
-    superHeroName: 'Salty Slow Coder',
-    homeTown: 'Mesa',
-    superPowers: ['Mega Blast', 'Thumder From Down Under', 'Calamitous Crop Duster'],
-    superPowerXP: function(Math.floor(Math.random() * 100) +1),
-    profileImage: document.createElement('img');
-        img.src = `https://randomuser.me/api/portraits/med/lego/${Math.floor(Math.random() * 10) + 1 }.jpg`;
-        document.body.appendChild(img);
-      
-}
 
 // The superHeroName key should be your name if you were a super hero. Feel free to jazz it up and get silly with it, e.g. "Thunderous Gas Man". 
 
@@ -33,12 +22,25 @@ const me = {
 // The profileImage key value should be a method that returns this url `https://randomuser.me/api/portraits/med/lego/${Math.floor(Math.random() * 10) + 1 }.jpg`.
 
 // CODE HERE
-
+const me = {
+    firstName: 'Kara',
+    superHeroName: 'Salty Slow Coder',
+    homeTown: 'Mesa',
+    superPowers: ['Mega Blast', 'Thumder From Down Under', 'Calamitous Crop Duster'],
+    superPowerXP: function(){(Math.floor(Math.random() * 100) +1)
+                        return me.superPowerXP},
+    profileImage: document.createElement('img');
+        img.src = `https://randomuser.me/api/portraits/med/lego/${Math.floor(Math.random() * 10) + 1 }.jpg`;
+        document.body.appendChild(img);
+      
+}
 //////////////////Step 3////////////////////
 // In this step, you will create three variables that will hold some data from your me object. The first variable you create should be 'regularName', and it should receive its value from the value of your firstName key on the me object above. The next variable is 'superName' which should have its value assigned as the value of the superHeroName property on the me object. The last variable you should create is 'homeTown' which will be the value of homeTown on the me object
 
 // CODE HERE
-
+let regularName = me.firstName;
+let superName = me.superHeroName;
+let homeTown = me.homeTown
 //////////////////Step 4////////////////////
 //Create a function called 'setColor' that takes in one parameter called 'arr' that is an array of colors. Make sure that we only ever have three colors by using splice to trim the array to just 3 colors. 
 
