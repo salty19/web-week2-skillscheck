@@ -136,9 +136,9 @@ function bigOrSmall(arr) {
 function arrayReverser(arr) {
 	const reversed = [];
 	for (let i = arr.length -1; i >= 0; i--) {
-		reversed.push()
+		reversed.push(arr[i])
 	}
-	return reversed[i];
+	return reversed;
 }
 //////////////////PROBLEM 14 - 18 Setup////////////////////
 
