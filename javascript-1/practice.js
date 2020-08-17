@@ -211,5 +211,5 @@ const enemies = people.filter(element => {
 
 // Code Here
 const totallyAwesome = people.reduce((acc, curr) => {
-	return acc.awesomeLevel + curr.awesomeLevel 
+	return acc + curr.awesomeLevel 
 }, 0)
