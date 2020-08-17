@@ -203,9 +203,7 @@ const people = [
 
 // Code Here
 const enemies = people.filter(element => {
-	if(people.friend === false){
-		return people
-	}
+	return element.friend !== true
 })
 //////////////////PROBLEM 20////////////////////
 
